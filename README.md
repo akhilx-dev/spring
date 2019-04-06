@@ -1,3 +1,3 @@
 # spring
 
-Add spring jar files to build path
+Add spring jar files to build path.
