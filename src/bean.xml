@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+   <bean id = "emp1" class = "com.test.Employee">
+	   	<property name="eid" value="102"/>	
+		<property name="ename" value="Xavier"/>
+		<property name="eaddress" value="Konappana Agrahara"/>
+   </bean>
+   
+   <bean id = "emp2" class = "com.test.Employee">
+	   	<property name="eid" value="103"/>	
+		<property name="ename" value="Paul"/>
+		<property name="eaddress" value="Ernakulam"/>
+   </bean>
+   
+</beans>
